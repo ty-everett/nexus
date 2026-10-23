@@ -98,7 +98,7 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v5
         with:
-          node-version: '24'
+          node-version: '24.22.1'
 
       # Two installs, deliberately: apps/ui is NOT a workspace member (it pins its
       # own React), so the root install does not cover it. `npm ci` in apps/ui also

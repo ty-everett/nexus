@@ -38,7 +38,7 @@ jobs:
       # and release is how a build passes here and fails there.
       - uses: actions/setup-node@v5
         with:
-          node-version: '24'
+          node-version: '24.22.1'
           cache: npm
 
       # apps/ui is its own npm project with its own lockfile (it carries its own
