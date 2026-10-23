@@ -96,7 +96,7 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v5
         with:
-          node-version: '24'
+          node-version: '24.22.1'
 
       # v9, not v8: v8 targets Node 20, which GitHub has deprecated on its runners
       # and is already force-running on Node 24 with a warning on every release. A
@@ -212,7 +212,7 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v5
         with:
-          node-version: '24'
+          node-version: '24.22.1'
 
       # v9, not v8: v8 targets Node 20, which GitHub has deprecated on its runners
       # and is already force-running on Node 24 with a warning on every release. A
@@ -283,7 +283,7 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v5
         with:
-          node-version: '24'
+          node-version: '24.22.1'
 
       # v9, not v8: v8 targets Node 20, which GitHub has deprecated on its runners
       # and is already force-running on Node 24 with a warning on every release. A
